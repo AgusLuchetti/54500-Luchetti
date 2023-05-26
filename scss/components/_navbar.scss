@@ -1,0 +1,38 @@
+header {
+    top: 0px;
+}
+
+.nav-link{    
+ padding: 10px;
+ color:darkgray;
+ text-decoration: none; 
+ font-size: 1.3rem;
+}
+
+.navbar{
+ width: 100%;
+}
+
+.collapse{
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+}
+
+
+.navbar-nav{
+ display: flex;
+ justify-content:space-between; 
+ align-items: center;
+ background-color: rgb(36, 35, 37);
+ gap: 30px;
+ 
+}
+
+.navbar{
+   background-color: rgb(36, 35, 37);
+} 
+
+.navbar-brand img{
+ border-radius: 15px;
+}

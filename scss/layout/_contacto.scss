@@ -1,0 +1,58 @@
+/*contacto*/
+
+.form-mensaje{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .form-contacto {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .cards-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 25px 0;
+ }
+ 
+ .cards-contacto h3 {
+    color: darkgray;
+ }
+ 
+ .cards-contacto h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .card-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    color: darkgray;
+ } 
+ 
+ 
+ .form-mensaje div{
+       padding-top: 35;
+       margin: 10px;
+ }
+ 
+ .form-mensaje div label{
+    font-size: 15px;
+    font-weight: bold;
+    color: darkgray;
+ } 

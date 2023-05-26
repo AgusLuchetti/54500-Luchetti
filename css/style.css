@@ -1,11 +1,5 @@
 /*importo tipografias desde google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@300&display=swap");
-/*reset*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   top: 0px;
 }
@@ -41,6 +35,54 @@ header {
 
 .navbar-brand img {
   border-radius: 15px;
+}
+
+/*footer*/
+.footer {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(36, 35, 37);
+  font-size: 1.1rem;
+}
+
+.footer-link {
+  padding: 10px;
+  color: darkgray;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer ul li a {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  color: darkgray;
+  text-align: center;
+}
+
+.footer ul li p {
+  text-align: right;
+  color: darkgray;
+  padding-top: 5px;
+  margin: 25px;
+}
+
+footer div img {
+  border-radius: 15px;
+  width: 150px;
 }
 
 /*main*/
@@ -181,54 +223,6 @@ header {
   font-size: 15px;
   font-weight: bold;
   color: darkgray;
-}
-
-/*footer*/
-.footer {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: rgb(36, 35, 37);
-  font-size: 1.1rem;
-}
-
-.footer-link {
-  padding: 10px;
-  color: darkgray;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.footer div {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
-}
-
-.footer ul li {
-  list-style: none;
-  display: inline-block;
-}
-
-.footer ul li a {
-  display: flex;
-  text-align: center;
-  text-decoration: none;
-  color: darkgray;
-  text-align: center;
-}
-
-.footer ul li p {
-  text-align: right;
-  color: darkgray;
-  padding-top: 5px;
-  margin: 25px;
-}
-
-footer div img {
-  border-radius: 15px;
-  width: 150px;
 }
 
 /*MEDIA QUERIES*/
