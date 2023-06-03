@@ -1,12 +1,17 @@
 /*importo tipografias desde google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   top: 0px;
 }
 
 .nav-link {
   padding: 10px;
-  color: darkgray;
+  color: #FFEFD6;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -37,7 +42,6 @@ header {
   border-radius: 15px;
 }
 
-/*footer*/
 .footer {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -47,7 +51,6 @@ header {
 
 .footer-link {
   padding: 10px;
-  color: darkgray;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -69,13 +72,13 @@ header {
   display: flex;
   text-align: center;
   text-decoration: none;
-  color: darkgray;
+  color: #FFEFD6;
   text-align: center;
 }
 
 .footer ul li p {
   text-align: right;
-  color: darkgray;
+  color: #FFEFD6;
   padding-top: 5px;
   margin: 25px;
 }
@@ -100,17 +103,7 @@ footer div img {
   text-align: center;
   margin-top: 10px;
   padding-bottom: 10px;
-  color: darkgray;
-}
-
-/*flexbox*/
-.cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-  padding: 25px 0;
+  color: #FFEFD6;
 }
 
 .card {
@@ -125,26 +118,17 @@ footer div img {
   width: 25%;
 }
 
-.card__content {
-  padding: 5px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 .card__content a {
   align-self: flex-end;
   padding: 10px;
   border: 2px solid black;
-  color: darkgray;
   border-radius: 5px;
   text-decoration: none;
   font-size: 30px;
 }
 
 .card-body a {
-  color: black;
+  color: #FFEFD6;
   font-weight: bold;
 }
 
@@ -165,10 +149,13 @@ footer div img {
 }
 
 .card-body {
-  color: darkgray;
+  color: #FFEFD6;
 }
 
-/*contacto*/
+.card-text {
+  font-weight: bold;
+}
+
 .form-mensaje {
   display: flex;
   padding: 10px;
@@ -223,6 +210,15 @@ footer div img {
   font-size: 15px;
   font-weight: bold;
   color: darkgray;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 25px 0;
 }
 
 /*MEDIA QUERIES*/

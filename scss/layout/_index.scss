@@ -1,7 +1,7 @@
 /*main*/
 
 .main-box {
-    background-color: rgb(36, 35, 37);
+    background-color: $main-box-color;
 }
 
 .banner img{
@@ -14,20 +14,8 @@
    text-align: center;
    margin-top: 10px;
    padding-bottom: 10px;
-   color:darkgray;
+   color:$main-productos-color;
 } 
-
-
-/*flexbox*/
-
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    padding: 25px 0;
- }
  
  .card {
     font-family: IBM-Plex-Sans;
@@ -37,30 +25,28 @@
     justify-content: center;
     border: black 2px solid;
     border-radius: 5px;
-    background-color: rgb(36, 35, 37);
+    background-color: $main-box-color;
     width: 25%;
  }
  
- .card__content {
-    padding: 5px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
- }
+//  .card__content {
+//     padding: 5px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 15px;
+//  }
  
  .card__content a {
     align-self: flex-end;
     padding: 10px;
     border: 2px solid black;
-    color:darkgray;
     border-radius: 5px;
     text-decoration: none;
     font-size: 30px;
  } 
  
  .card-body a{
-    color: black;
+    color: $card-body-a;
     font-weight: bold;
  }
  
@@ -81,5 +67,5 @@
  }
  
  .card-body{
-    color: darkgray;
+    color: $card-body;
  }
