@@ -1,8 +1,9 @@
 /*importo tipografias desde google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@300&display=swap');
 
-//imports
+//imports base
 @import 'base/vars';
+@import 'base/utilities';
 @import 'base/reset';
 
 //imports components

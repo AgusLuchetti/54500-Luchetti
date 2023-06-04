@@ -4,19 +4,16 @@
 
     header{
        flex-direction: column;
+
+       img{
+         width: 90%;
+      }
+
+      nav { 
+         @include flex(column,center,center,35px);
+      }  
     }
- 
-    header img{
-       width: 90%;
-    }
- 
-    nav { 
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       gap: 35px;
-    }  
-     
+    
  /*Banner*/
  .banner img{
     width: 100%;
@@ -28,39 +25,34 @@
   .galeria-container{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    }
- 
- .galeria-container img{
-       width: 18rem;
-       object-fit: cover;
-       border-radius: 15px;
-    }
- 
+
+    img{
+      width: 18rem;
+      object-fit: cover;
+      border-radius: 15px;
+   }
+}
+  
     .card__content {
        padding: 5px;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
+       @include flex(column,center,center,10px);
        align-self: center;
-       gap: 10px;
-    }
-    
-    .card__content p {      
-       align-self: center;
-       padding: 10px;
-       text-decoration: none;
-       font-size: 20px;
-    }
-    
- 
-    .card__content a {      
-       align-self: center;
-       padding: 10px;
-       text-decoration: none;
-       font-size: 20px;
-    }
-     
+   
+
+       p {      
+         align-self: center;
+         padding: 10px;
+         text-decoration: none;
+         font-size: 20px;
+      }
+
+      a {      
+         align-self: center;
+         padding: 10px;
+         text-decoration: none;
+         font-size: 20px;
+      }
+    }   
  
     .cards img{
        width: 100%;
@@ -83,14 +75,14 @@
     .galeria-container{
        grid-template-columns: repeat(1, 1fr);
        grid-template-rows: repeat(1, 1fr);
+
+       img{
+         width: 18rem;
+         object-fit: cover;
+         border-radius: 5px;
+      }
     
      }
- 
-     .galeria-container img{
-       width: 18rem;
-       object-fit: cover;
-       border-radius: 5px;
-    }
  
     .cards img{
        width: 100%;

@@ -1,48 +1,46 @@
+/*footer*/
 .footer {
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(36, 35, 37) ;
     font-size: 1.1rem;
- }
- 
- .footer-link{    
-    padding: 10px;
-    text-decoration: none; 
-    font-size: 1.0rem;
- }
- 
- .footer div {
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
- }
- 
- .footer ul li{
-    list-style: none;
-    display: inline-block;
- } 
- 
- .footer  ul li a{
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    color: $footer-color;
-    text-align: center;
-        
- }
- 
- .footer  ul li p{
-    text-align: right;
-    color: $footer-color;
-    padding-top: 5px;
-    margin: 25px;
-    
- }
- 
- footer div img{
-    border-radius: 15px;
-    width: 150px;
- }
- 
+
+        div {
+             @include flex(column,center,center,0px);
+             padding: 25px;
+
+             img{
+                  border-radius: 15px;
+                  width: 150px;
+                }
+          
+            } 
+
+         }
+
+         ul li{
+            list-style: none;
+            display: inline-block;
+
+            a{
+               display: flex;
+               text-align: center;
+               text-decoration: none;
+               color: $footer-color;
+               text-align: center;                      
+             }  
+
+           p{
+               text-align: right;
+               color: $footer-color;
+               padding-top: 5px;
+               margin: 25px;
+            
+              }
+
+         .footer-link{    
+            padding: 10px;
+            text-decoration: none; 
+            font-size: 1.0rem;
+         }
+      }

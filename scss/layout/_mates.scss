@@ -1,5 +1,12 @@
+.card-mates {
+   font-family: IBM-Plex-Sans;
+   @include flex(column,center,center,30px);
+   border: black 2px solid;
+   border-radius: 5px;
+   background-color: $main-box-color;
+   width: 25%;
 
-
- .card-text{
-    font-weight: bold;
- }
+   .card-body-mates{
+      color: $card-body-mates;
+   }
+}
