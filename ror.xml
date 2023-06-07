@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for https://agusluchetti.github.io/PreEntrega2-Luchetti/index.html</title>
-  <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/index.html</link>
+  <title>ROR Sitemap for https://agusluchetti.github.io/PreEntrega3-Luchetti/index.html</title>
+  <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/index.html</link>
 
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/index.html</link>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/index.html</link>
      <title>Otto Mate</title>
-     <description>Otto Mate</description>
+     <description>Conocè nuestros mates, cada Mate es Único. Somos artesanos del Mate, No tenemos cualquier mate, tenemos Tu Mate. Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/mates.html</link>
-     <title>Mates</title>
-     <description>Mates</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/mates.html</link>
+     <title>Otto Mate - Mates</title>
+     <description>Conocè nuestros Mates,Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/bombillas.html</link>
-     <title>Bombillas</title>
-     <description>Bombillas</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/bombillas.html</link>
+     <title>Otto Mate - Bombillas</title>
+     <description>Conocè nuestras Bombillas, Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/termos.html</link>
-     <title>Termos</title>
-     <description>Termos</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/termos.html</link>
+     <title>Otto Mate - Termos</title>
+     <description>Conocè nuestros Termos,Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/materas.html</link>
-     <title>Materas</title>
-     <description>Materas</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/materas.html</link>
+     <title>Otto Mate - Materas</title>
+     <description>Conocè nuestros Materas,Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/contacto.html</link>
-     <title>Contacto</title>
-     <description>Contacto</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/contacto.html</link>
+     <title>Otto Mate - Contacto</title>
+     <description>Déjanos tu mensaje, Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/compar.html</link>
-     <title>Como Comprar</title>
-     <description>Como Comprar</description>
+     <link>https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/compar.html</link>
+     <title>Otto Mate - Como Comprar</title>
+     <description>Conocè nuestro proceso de compra, Te esperamos</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

@@ -1,7 +1,7 @@
-https://agusluchetti.github.io/PreEntrega2-Luchetti/index.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/mates.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/bombillas.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/termos.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/materas.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/contacto.html
-https://agusluchetti.github.io/PreEntrega2-Luchetti/pages/compar.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/index.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/mates.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/bombillas.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/termos.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/materas.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/contacto.html
+https://agusluchetti.github.io/PreEntrega3-Luchetti/pages/compar.html
