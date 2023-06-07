@@ -9,14 +9,14 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AgusLuchetti/PreEntrega2-Luchetti"
-  },
+    "url": "git+https://github.com/AgusLuchetti/PreEntrega3-Luchetti"
+  }, 
 
   "author": "",
   "license": "ISC",
 
   "bugs": {
-    "url": "https://github.com/AgusLuchetti/PreEntrega2-Luchetti/issues"
+    "url": "https://github.com/AgusLuchetti/PreEntrega3-Luchetti/issues"
   },
-  "homepage": "https://github.com/AgusLuchetti/PreEntrega2-Luchetti#readme"
+  "homepage": "https://github.com/AgusLuchetti/PreEntrega3-Luchetti#readme"
 }
