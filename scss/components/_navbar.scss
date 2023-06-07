@@ -26,12 +26,19 @@ header {
        }
 
        .nav-link{    
-        padding: 10px;
-        color:$nav-link-color;
-        text-decoration: none; 
-        font-size: 1.3rem;
-       }
-}
+                padding: 10px;
+                color:$nav-link-color;
+                text-decoration: none; 
+                font-size: 1.3rem;
+
+                &:hover {
+                        background-color: transparent;
+                        color: $nav-link-hover-color;
+                        transition: 0.4s;
+                    }
+
+            }
+    }
 
 
 

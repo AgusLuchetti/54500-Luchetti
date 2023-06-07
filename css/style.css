@@ -1,6 +1,5 @@
 /*importo tipografias desde google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto:wght@300&display=swap");
-/*reset*/
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +35,11 @@ header {
   color: #FFEFD6;
   text-decoration: none;
   font-size: 1.3rem;
+}
+.collapse .nav-link:hover {
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.4s;
 }
 
 /*footer*/
@@ -80,6 +84,11 @@ ul li .footer-link {
   text-decoration: none;
   font-size: 1rem;
 }
+ul li .footer-link:hover {
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.4s;
+}
 
 .main-box {
   background-color: rgb(36, 35, 37);
@@ -94,6 +103,11 @@ ul li .footer-link {
   margin-top: 10px;
   padding-bottom: 10px;
   color: #FFEFD6;
+}
+.main-box .main-productos h2:hover {
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.4s;
 }
 
 .card {
@@ -140,6 +154,11 @@ ul li .footer-link {
   color: #FFEFD6;
 }
 
+.card-mates-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+
 .card-bombillas {
   font-family: IBM-Plex-Sans;
   display: flex;
@@ -166,9 +185,9 @@ ul li .footer-link {
   border: black 2px solid;
   border-radius: 5px;
   background-color: rgb(36, 35, 37);
-  width: 25%;
 }
-.card-termos .card-body-termos {
+
+.card-body-termos {
   color: #FFEFD6;
 }
 
@@ -205,6 +224,9 @@ ul li .footer-link {
   font-weight: bold;
   color: #FFEFD6;
 }
+.form-mensaje .btn {
+  color: #FFEFD6;
+}
 .form-mensaje .cards-contacto {
   display: flex;
   flex-direction: column;
@@ -216,6 +238,11 @@ ul li .footer-link {
 }
 .form-mensaje .cards-contacto h3 {
   color: #FFEFD6;
+}
+.form-mensaje .cards-contacto h3:hover {
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.4s;
 }
 .form-mensaje .cards-contacto .card-contacto {
   display: flex;
@@ -233,6 +260,11 @@ ul li .footer-link {
   justify-content: center;
   align-items: center;
   gap: 0px;
+}
+.form-mensaje .cards-contacto .card-contacto h4:hover {
+  background-color: transparent;
+  color: darkgray;
+  transition: 0.4s;
 }
 
 .cards {

@@ -7,6 +7,12 @@
    width: 25%;
 
    .card-body-mates{
-      color: $card-body-mates;
-   }
+         color: $card-body-mates;
+
+      }
+}
+
+.card-mates-img-top{
+   width: 100%;
+   object-fit: cover;
 }

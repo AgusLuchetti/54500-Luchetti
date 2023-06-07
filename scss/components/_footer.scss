@@ -42,5 +42,11 @@
             padding: 10px;
             text-decoration: none; 
             font-size: 1.0rem;
+
+             &:hover {
+                background-color: transparent;
+                color: $nav-link-hover-color;
+                transition: 0.4s;
+               }
          }
       }

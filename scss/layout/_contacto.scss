@@ -11,30 +11,46 @@
              font-size: 15px;
              font-weight: bold;
              color: $card-contacto-color;
-         } 
+            } 
+
+       .btn{
+            color:$card-contacto-color;
+           }
 
 
     .cards-contacto {
-            @include flex(column,center,center,15px);
-            flex-wrap: wrap;
-            padding: 25px 0;
+                 @include flex(column,center,center,15px);
+                 flex-wrap: wrap;
+                 padding: 25px 0;
 
-            h3 {
-                 color: $card-contacto-color;
-               }
+                      h3 {
+                           color: $card-contacto-color;
+                            &:hover {
+                                background-color: transparent;
+                                color: $nav-link-hover-color;
+                                transition: 0.4s;
+                               }
 
-             .card-contacto {
+                         }
 
-                              @include flex(column,center,center,5px);
-                              flex-wrap: wrap;
-                              padding: 25px 0;
-                              color: $card-contacto-color;
+                            .card-contacto {
+
+                                    @include flex(column,center,center,5px);
+                                    flex-wrap: wrap;
+                                    padding: 25px 0;
+                                    color: $card-contacto-color;
                
-                               h4 {
-                                     @include flex(column,center,center,0px);
-                                  }
+                                     h4 {
+                                           @include flex(column,center,center,0px);
 
-                           } 
-           }
+                                           &:hover {
+                                                background-color: transparent;
+                                                color: $nav-link-hover-color;
+                                                transition: 0.4s;
+                                               }
+                                          }
+
+                                   } 
+                 }
 
  }

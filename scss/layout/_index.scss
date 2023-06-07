@@ -12,6 +12,16 @@
       margin-top: 10px;
       padding-bottom: 10px;
       color:$main-productos-color;
+
+      h2 {
+           &:hover {
+               background-color: transparent;
+               color: $nav-link-hover-color;
+               transition: 0.4s;
+            }
+         }
+
+  
    } 
 }
  
