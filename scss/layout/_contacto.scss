@@ -17,21 +17,39 @@
             color:$card-contacto-color;
            }
 
-
-    .cards-contacto {
+     .cards-contacto {
                  @include flex(column,center,center,15px);
                  flex-wrap: wrap;
                  padding: 25px 0;
 
-                      h3 {
-                           color: $card-contacto-color;
-                            &:hover {
-                                background-color: transparent;
-                                color: $nav-link-hover-color;
-                                transition: 0.4s;
-                               }
 
-                         }
+                 h1{
+                    color: $card-contacto-color;
+                    &:hover{
+                     background-color: transparent;
+                     color: $nav-link-hover-color;
+                     transition: 0.4s;
+                 }
+                 }
+
+                 h2{
+                     color: $card-contacto-color;
+                         &:hover{
+                              background-color: transparent;
+                              color: $nav-link-hover-color;
+                              transition: 0.4s;
+                           }
+                     }
+                   
+                 h3 {
+                      color: $card-contacto-color;
+                 
+                         &:hover{
+                                   background-color: transparent;
+                                   color: $nav-link-hover-color;
+                                   transition: 0.4s;
+                               }
+                     }
 
                             .card-contacto {
 

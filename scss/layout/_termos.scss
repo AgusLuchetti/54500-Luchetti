@@ -1,14 +1,27 @@
 .card-termos {
     font-family: IBM-Plex-Sans;
-    @include flex(column,center,center,30px);
     border: black 2px solid;
     border-radius: 5px;
     background-color: $main-box-color;
-       
+    width: 18rem;
+    transition: 0.3s;
+              
+                  &:hover {
+                      transform: scale(1.05, 1.05);
+                      box-shadow: 4px 4px 4px 0px #FFEFD6;
+                  }   
 
+                  .card-body-termos{
+                     color: $card-body-termos;
+                     @include flex(column,center,center,30px);
+                       padding: 15px;
+                       flex-direction: column;
+                       gap: 15px;
+                       font-size: 20px;
+              
+                       .btn{
+                          color:$card-btn-color;
+                         }  
+              }
 
  }
-
- .card-body-termos{
-       color: $card-body-termos;
-}
